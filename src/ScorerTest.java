@@ -39,7 +39,7 @@ public class ScorerTest{
 
         int[] values = new int[]{2,3,2,3,2};
 
-        int test = CalculateScore.numberChoice(2, values);
+        int test = Scorer.numberChoice(2, values);
 
         int expectedResult = 3;
 
@@ -51,7 +51,7 @@ public class ScorerTest{
 
         int[] values = new int[]{1,2,3,4,5};
 
-        int test = CalculateScore.numberChoice(6, values);
+        int test = Scorer.numberChoice(6, values);
 
         int expectedResult = 0;
 
@@ -64,7 +64,7 @@ public class ScorerTest{
 
         int[] values = new int[]{1,1,2,2,2};
 
-        int test = CalculateScore.fullHouse(values);
+        int test = Scorer.fullHouse(values);
 
         int expectedResult = 8;
 
@@ -76,7 +76,7 @@ public class ScorerTest{
     public void testFullHouseNoScore(){
         int[] values = new int[]{1,1,2,2,3};
 
-        int test = CalculateScore.fullHouse(values);
+        int test = Scorer.fullHouse(values);
 
         int expectedResult = 0;
 

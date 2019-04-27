@@ -1,5 +1,7 @@
-import java.util.Scanner;
-
+/**
+ * Parses the input of the player
+ * Assumes currently that the input is properly formatted
+ */
 public class Parser {
 
     private static int lengthOfDiceValues = 14;
